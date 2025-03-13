@@ -1,0 +1,495 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tienda Mellizos</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <div class="logo">Distribuidora Mellizos</div>
+        <nav><!--define una sección de navegación dentro de una página-->
+            <ul><!-- se utiliza para crear una lista desordenada.-->
+                <li><a href="https://www.google.com/maps/place/Distribuidora+Mellizos/@14.9645507,-91.7784104,20.23z/data=!4m6!3m5!1s0x858e81fba19d2a39:0xf22536a4f0812e25!8m2!3d14.964675!4d-91.7786107!16s%2Fg%2F11qpw00lsg?entry=ttu&g_ep=EgoyMDI0MDkyMy4wIKXMDSoASAFQAw%3D%3D" target="_blank">Donde Encontrarnos</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Banner Principal -->
+    <section class="banner">
+        <h1>Bienvenido a Tienda Mellizos</h1>
+        <p>Encuentra lo que necesitas aqui</p>
+    </section>
+
+  <main>
+    <!-- Categoría Gaseosas -->
+    <section class="category">
+      <h2>Gaseosas</h2>
+      <div class="scroll-wrapper">
+        <button class="scroll-btn left" onclick="scrollLeft('gaseosas')">&#10094;</button>
+        <div class="scroll-container" id="gaseosas">
+
+          <div class="product">
+            <img src="imagenes/fanta.jpeg" alt="Fanta">
+            <p>Fanta</p>
+            <p>Precio: $25.00</p>
+          </div>
+
+          <div class="product">
+            <img src="imagenes/carnaval.jpg" alt="Carnaval">
+            <p>Aguas Carnaval</p>
+            <p>Precio: Q60.00</p>
+          </div>
+
+          <div class="product">
+            <img src="imagenes/salvavidas.jpeg" alt="Salvavidas">
+            <p>Aguas Salvavidas</p>
+            <p>Precio: Q60.00</p>
+          </div>
+
+          <div class="product">
+            <img src="imagenes/pepsi.jpeg" alt="Pepsi">
+            <p>Pepsi Lata</p>
+            <p>Precio: Q96.00</p>
+          </div>
+
+          <div class="product">
+            <img src="imagenes/pepsijum.jpeg" alt="Pepsi">
+            <p>Pepsi Jumbo</p>
+            <p>Precio: Q85.00</p>
+          </div>
+
+          <div class="product">
+            <img src="imagenes/bigcola.jpg" alt="Big Cola">
+            <p>Big Cola jumbo</p>
+            <p>Precio: Q61.00</p>
+          </div>
+
+          <div class="product">
+            <img src="imagenes/coca.jpeg" alt="CocaCola">
+            <p>Coca Cola Lata</p>
+            <p>Precio: Q112.00</p>
+          </div>
+
+          <div class="product">
+            <img src="imagenes/cocavid.png" alt="CocaVidrio">
+            <p>Coca Botella</p>
+            <p>Precio: Q71.00</p>
+          </div>
+
+          <div class="product">
+            <img src="imagenes/litro.jpeg" alt="Litro">
+            <p>Coca Litro</p>
+            <p>Precio: Q71.00</p>
+          </div>
+
+          <div class="product">
+            <img src="imagenes/retornable.png" alt="Retornable">
+            <p>Coca Retornable</p>
+            <p>Precio: Q80.00</p>
+          </div>
+
+          <div class="product">
+            <img src="imagenes/desechable.jpeg" alt="Desechable">
+            <p>Coca Desechable</p>
+            <p>Precio: Q74.00</p>
+          </div>
+
+          <div class="product">
+            <img src="imagenes/25.jpeg" alt="Coca 2.5">
+            <p>Coca 2.5</p>
+            <p>Precio: Q100.00</p>
+          </div>
+
+        </div>
+        <button class="scroll-btn right" onclick="scrollRight('gaseosas')">&#10095;</button>
+      </div>
+    </section>
+
+
+    <!-- Categoría Ricitos -->
+    <section class="category">
+      <h2>Ricitos</h2>
+      <div class="scroll-wrapper">
+        <button class="scroll-btn left" onclick="scrollLeft('ricitos')">&#10094;</button>
+        <div class="scroll-container" id="ricitos">
+
+          <div class="product">
+            <img src="imagenes/macho.jpeg" alt="Nachos">
+            <p>Nachos</p>
+            <p>Precio: Q10.00</p>
+          </div>
+
+          <div class="product">
+            <img src="imagenes/jalapeño.jpg" alt="Jalapeño">
+            <p>Jalapeño</p>
+            <p>Precio: Q10.00</p>
+          </div>
+
+          <div class="product">
+            <img src="imagenes/rancheritos.jpg" alt="rancheritos">
+            <p>Rancheritos</p>
+            <p>Precio: Q10.00</p>
+          </div>
+
+          <div class="product">
+            <img src="imagenes/palito.jpg" alt="Palito">
+            <p>Palito Chilimon</p>
+            <p>Precio: Q10.00</p>
+          </div>
+
+          <div class="product">
+            <img src="imagenes/ranchita.jpeg" alt="Ranchita">
+            <p>Ranchita Roja</p>
+            <p>Precio: Q10.00</p>
+          </div>
+
+          <div class="product">
+            <img src="imagenes/ranchitapla.jpeg" alt="ranchita">
+            <p>Ranchita plateada</p>
+            <p>Precio: Q10.00</p>
+          </div>
+
+          <div class="product">
+            <img src="imagenes/chobix.jpg" alt="Chobix">
+            <p>Chobix Barbacoa</p>
+            <p>Precio: Q10.00</p>
+          </div>
+
+          <div class="product">
+            <img src="imagenes/chobixpic.jpeg" alt="Chobix">
+            <p>Chobix Picante</p>
+            <p>Precio: Q10.00</p>
+          </div>
+
+          <div class="product">
+            <img src="imagenes/quesifrito.jpeg" alt="Quesifrito ">
+            <p>Quesifrito</p>
+            <p>Precio: Q10.00</p>
+          </div>
+
+          <div class="product">
+            <img src="imagenes/quesito.jpeg" alt="Quesito">
+            <p>Quesito</p>
+            <p>Precio: Q10.00</p>
+          </div>
+
+          <div class="product">
+            <img src="imagenes/unico.jpeg" alt="Tortillita">
+            <p>Tortillita Señorial</p>
+            <p>Precio: Q10.00</p>
+          </div>
+
+          <div class="product">
+            <img src="imagenes/quesitrix.jpeg" alt="Quesitrix">
+            <p>Quesitrix</p>
+            <p>Precio: Q10.00</p>
+          </div>
+
+          <div class="product">
+            <img src="imagenes/taquerito.jpeg" alt="Taquerito">
+            <p>Taquerito Verde</p>
+            <p>Precio: Q22.00</p>
+          </div>
+
+
+        </div>
+        <button class="scroll-btn right" onclick="scrollRight('ricitos')">&#10095;</button>
+      </div>
+    </section>
+
+
+    <!-- Categoría Jabones -->
+    <section class="category">
+        <h2>Jabones</h2>
+        <div class="scroll-wrapper">
+          <button class="scroll-btn left" onclick="scrollLeft('jabones')">&#10094;</button>
+          <div class="scroll-container" id="jabones">
+  
+            <div class="product">
+              <img src="imagenes/jabonmax.png" alt="Max">
+              <p>Jabon Max</p>
+              <p>Precio: Q125.00</p>
+            </div>
+
+            <div class="product">
+              <img src="imagenes/potensol.png" alt="Potensol">
+              <p>Jabon Potensol</p>
+              <p>Precio: Q88.00</p>
+            </div>
+
+
+            <div class="product">
+              <img src="imagenes/ultra.jpeg" alt="Klin">
+              <p>Ultra Klin Grande</p>
+              <p>Precio: Q88.00</p>
+            </div>
+
+            <div class="product">
+              <img src="imagenes/ultra.jpeg" alt="Klin Pequeño">
+              <p>Ultra Klin Pequeño</p>
+              <p>Precio: Q88.00</p>
+            </div>
+
+            <div class="product">
+              <img src="imagenes/magia.jpeg" alt="Magia">
+              <p>Cloro Magia Blanca</p>
+              <p>Precio: Q20.00</p>
+            </div>
+
+            <div class="product">
+              <img src="imagenes/super.jpeg" alt="SuperPro ">
+              <p>Cloro SuperPro</p>
+              <p>Precio: Q10.00</p>
+            </div>
+  
+            
+  
+          </div>
+          <button class="scroll-btn right" onclick="scrollRight('jabones')">&#10095;</button>
+        </div>
+      </section>
+
+
+      <!-- Categoría consumodiario -->
+    <section class="category">
+        <h2>Consumo Diario</h2>
+        <div class="scroll-wrapper">
+          <button class="scroll-btn left" onclick="scrollLeft('consumodiario')">&#10094;</button>
+          <div class="scroll-container" id="consumodiario">
+  
+            <div class="product">
+              <img src="imagenes/azucar.jpg" alt="Azucar lbs">
+              <p>Azucar Lbs</p>
+              <p>Precio: Q122.00</p>
+            </div>
+
+            <div class="product">
+                <img src="imagenes/azucar5lb.png" alt="Azucar">
+                <p>Azucar 5Lbs</p>
+                <p>Precio: Q120.00</p>
+              </div>
+
+              <div class="product">
+                <img src="imagenes/La morena.jpg" alt="AzucarMorena">
+                <p>Azucar Morena</p>
+                <p>Precio: Q97.00</p>
+              </div>
+
+              <div class="product">
+                <img src="imagenes/nissin.jpeg" alt="Nissin">
+                <p>Sopa Nissin</p>
+                <p>Precio: Q46.00</p>
+              </div>
+
+              <div class="product">
+                <img src="imagenes/laky.jpeg" alt="Laky">
+                <p>Sopa Laky</p>
+                <p>Precio: Q43.00</p>
+              </div>
+
+              <div class="product">
+                <img src="imagenes/maseca.jpeg" alt="Maseca">
+                <p>Maseca</p>
+                <p>Precio: Q90.00</p>
+              </div>
+
+              <div class="product">
+                <img src="imagenes/flakes.jpeg" alt="Flakes">
+                <p>Corn Flakes</p>
+                <p>Precio: Q19.75 c/u</p>
+              </div>
+
+              <div class="product">
+                <img src="imagenes/nestle.jpeg" alt="Nestle">
+                <p>Corn Flakes Nestle</p>
+                <p>Precio: Q19.75 c/u</p>
+              </div>
+
+              <div class="product">
+                <img src="imagenes/anchor.png" alt="Anchor">
+                <p>Leche Anchor</p>
+                <p>Precio: Q135.00</p>
+              </div>
+
+              <div class="product">
+                <img src="imagenes/Naturas.jpeg" alt="Naturas">
+                <p>Salsa Naturas</p>
+                <p>Precio: Q42.00</p>
+              </div>
+
+              <div class="product">
+                <img src="imagenes/perla.jpeg" alt="Perla">
+                <p>Fideos Perla</p>
+                <p>Precio: Q65.00</p>
+              </div>
+
+              <div class="product">
+                <img src="imagenes/magguisopa.jpeg" alt="Maggui">
+                <p>Sopa Maggui doc</p>
+                <p>Precio: Q30.00</p>
+              </div>
+
+              <div class="product">
+                <img src="imagenes/magguisopa.jpeg" alt="Maggui">
+                <p>Sopa Maggui Crt</p>
+                <p>Precio: Q15.00</p>
+              </div>
+  
+            
+  
+          </div>
+          <button class="scroll-btn right" onclick="scrollRight('consumodiario')">&#10095;</button>
+        </div>
+      </section>
+
+
+      <!-- Desechables -->
+      <section class="category">
+        <h2>Desechables</h2>
+        <div class="scroll-wrapper">
+          <button class="scroll-btn left" onclick="scrollLeft('Desechables')">&#10094;</button>
+          <div class="scroll-container" id="Desechables">
+
+            <div class="product">
+              <img src="imagenes/pelota.jpg" alt="Pelota">
+              <p>Pelota Plastica</p>
+              <p>Precio: Q28.00</p>
+            </div>
+  
+            <div class="product">
+              <img src="imagenes/bandeja.jpeg" alt="Plato">
+              <p>Plato Bandeja</p>
+              <p>Precio: Q170.00</p>
+            </div>
+
+            <div class="product">
+              <img src="imagenes/pastelero.jpeg" alt="Pastelero">
+              <p>Plato Pastelero</p>
+              <p>Precio: $25.00</p>
+            </div>
+
+            <div class="product">
+              <img src="imagenes/vaso.jpg" alt="Vaso">
+              <p>Vaso Desechable</p>
+              <p>Precio: Q198.00</p>
+            </div>
+
+            <div class="product">
+              <img src="imagenes/tenedor.jpg" alt="Tenedor">
+              <p>Tenedor</p>
+              <p>Precio: Q90.00</p>
+            </div>
+
+            <div class="product">
+              <img src="imagenes/cuchara.jpeg" alt="Cuchara">
+              <p>Cuchara</p>
+              <p>Precio: Q90.00</p>
+            </div>
+
+            <div class="product">
+              <img src="imagenes/maxpappel.jpeg" alt="Servilleta">
+              <p>Servilletas</p>
+              <p>Precio: Q40.00</p>
+            </div>
+  
+            
+  
+          </div>
+          <button class="scroll-btn right" onclick="scrollRight('Desechables')">&#10095;</button>
+        </div>
+      </section>
+
+
+      <!-- Higiene -->
+      <section class="category">
+        <h2>Higiene</h2>
+        <div class="scroll-wrapper">
+          <button class="scroll-btn left" onclick="scrollLeft('Higiene')">&#10094;</button>
+          <div class="scroll-container" id="Higiene">
+  
+            <div class="product">
+              <img src="imagenes/protex.jpeg" alt="Protex">
+              <p>Jabon Protex</p>
+              <p>Precio: Q72.00</p>
+            </div>
+
+            <div class="product">
+              <img src="imagenes/palmolive.png" alt="Palmolive">
+              <p>Jabon Palmolive</p>
+              <p>Precio: Q72.00</p>
+            </div>
+
+            <div class="product">
+              <img src="imagenes/head.jpeg" alt="Shampoo">
+              <p>Head Shoulder</p>
+              <p>Precio: Q22.00</p>
+            </div>
+
+            <div class="product">
+              <img src="imagenes/blanca.jpeg" alt="Blanca">
+              <p>Papel Nube Blanca</p>
+              <p>Precio: Q62.00</p>
+            </div>
+
+            <div class="product">
+              <img src="imagenes/scott.jpeg" alt="Scott">
+              <p>Papel Scott Individual</p>
+              <p>Precio: Q55.00</p>
+            </div>
+
+            <div class="product">
+              <img src="imagenes/pappel.jpeg" alt="MaxPapel">
+              <p>Max Papel</p>
+              <p>Precio: Q160.00</p>
+            </div>
+
+            <div class="product">
+              <img src="imagenes/buenasnoches.jpeg" alt="Noches">
+              <p>Saba Buenas Noches</p>
+              <p>Precio: Q55.00</p>
+            </div>
+
+            <div class="product">
+              <img src="imagenes/saba.jpeg" alt="Saba">
+              <p>Saba invisible</p>
+              <p>Precio: Q--.00</p>
+            </div>
+
+            <div class="product">
+              <img src="imagenes/colgate.jpeg" alt="colgate">
+              <p>Cepillo Colgate</p>
+              <p>Precio: Q--.00</p>
+            </div>
+
+            <div class="product">
+              <img src="imagenes/pasta.jpeg" alt="Pasta">
+              <p>Pasta Dental</p>
+              <p>Precio: Q--.00</p>
+            </div>
+
+
+  
+            
+  
+          </div>
+          <button class="scroll-btn right" onclick="scrollRight('Higiene')">&#10095;</button>
+        </div>
+      </section>
+
+
+
+
+
+
+  </main>
+
+  <footer>
+    <p>© 2024 Distribuidora Mellizos. Todos los derechos reservados.</p>
+    <p>Num. 4866-4655, 5201-2508</p>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
